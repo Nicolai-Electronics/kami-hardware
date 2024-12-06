@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "05376d28-1e4c-40fc-adae-e4729b252574")
+	(paper "A4")
+	(title_block
+		(title "TSJA badge")
+		(date "2024-12-04")
+		(rev "1.0")
+		(company "Nicolai Electronics")
+		(comment 1 "License: CERN Open Hardware Licence Version 2 - Permissive")
+	)
+	(lib_symbols)
+)
