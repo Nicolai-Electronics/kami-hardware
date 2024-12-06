@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TSJA badge")
-		(date "2024-12-04")
+		(date "2024-12-06")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "License: CERN Open Hardware Licence Version 2 - Permissive")

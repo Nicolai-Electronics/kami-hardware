@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TSJA badge")
-		(date "2024-12-04")
+		(date "2024-12-06")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "License: CERN Open Hardware Licence Version 2 - Permissive")
@@ -7723,6 +7723,16 @@
 		)
 		(uuid "3d26c6ea-52c2-4fae-b44a-0340d1c27c84")
 	)
+	(polyline
+		(pts
+			(xy 160.02 166.37) (xy 160.02 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d58a9d1-faa4-47b6-9315-372e739d23d9")
+	)
 	(wire
 		(pts
 			(xy 171.45 132.08) (xy 173.99 132.08)
@@ -8152,6 +8162,16 @@
 			(type default)
 		)
 		(uuid "71d8b342-ff06-4f5c-9ee0-5319eb861460")
+	)
+	(polyline
+		(pts
+			(xy 160.02 147.32) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f85afb-8964-41e2-bf40-b0907e15eefc")
 	)
 	(wire
 		(pts
@@ -9233,6 +9253,16 @@
 		)
 		(uuid "e15b272e-79f5-4891-a0a6-f4a596de39cf")
 	)
+	(polyline
+		(pts
+			(xy 167.64 139.7) (xy 170.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19adbe5-5126-4d5c-8f65-972b0ecf7c88")
+	)
 	(wire
 		(pts
 			(xy 111.76 30.48) (xy 111.76 29.21)
@@ -9560,6 +9590,16 @@
 			(justify left)
 		)
 		(uuid "f76084d5-296f-4fa4-9997-4c0f7021ad42")
+	)
+	(text "Got an input only pin left over,\nanything useful we could do here?"
+		(exclude_from_sim no)
+		(at 159.766 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff967e0e-c679-40d9-8587-3aba20b49e2f")
 	)
 	(label "CC1"
 		(at 40.64 26.67 0)
