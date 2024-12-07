@@ -2007,6 +2007,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -14596,69 +14678,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SY6280AAC"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silergy Corp"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6ba7bffc-30fe-4a7c-8a44-e17f36c60e18")
 		)
@@ -18562,72 +18581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb922131-5daf-434c-b45c-f56928452da5")
-		(property "Reference" "#PWR02"
-			(at 148.59 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f69b070b-1ee6-47e6-b696-e421339e3e30")
-		)
-		(instances
-			(project "tsja"
-				(path "/5f312b85-6822-40a3-b417-2df49696ca2d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:C-Device")
 		(at 144.78 34.29 0)
 		(unit 1)
@@ -19388,72 +19341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddbdb691-2867-46d7-a5a3-c44cd0ffa357")
-		(property "Reference" "#PWR020"
-			(at 163.83 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4c60892-bd1a-43cb-a306-8a877bb799c4")
-		)
-		(instances
-			(project "tsja"
-				(path "/5f312b85-6822-40a3-b417-2df49696ca2d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Touch:MPR121QR2")
 		(at 45.72 161.29 0)
 		(unit 1)
@@ -19499,6 +19386,15 @@
 			)
 		)
 		(property "Description" "12ch Touch Sensor controller, UQFN-20"
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C91322"
 			(at 45.72 161.29 0)
 			(effects
 				(font
@@ -19643,8 +19539,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 163.83 187.96 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 186.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -19660,7 +19556,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 187.9599 0)
+			(at 166.37 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,8 +19564,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopOnly"
-			(at 163.83 187.96 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 163.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19678,7 +19574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 187.96 0)
+			(at 163.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19686,17 +19582,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 163.83 187.96 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "76455e6f-b8c6-4152-883e-25aba8056b02")
 		)
 		(instances
 			(project "tsja"
@@ -20436,8 +20329,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 148.59 187.96 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 148.59 186.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -20453,7 +20346,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 151.13 187.9599 0)
+			(at 151.13 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20461,8 +20354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 148.59 187.96 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20471,7 +20364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 187.96 0)
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20479,17 +20372,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 148.59 187.96 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 148.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f6fa8548-d784-4d1c-9c71-42bb5ccd81ed")
 		)
 		(instances
 			(project "tsja"
