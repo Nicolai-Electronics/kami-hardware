@@ -5237,34 +5237,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 90)
+				(at 0 10.16 270)
 				(length 2.54)
-				(name "DOWN"
+				(name "1"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "D"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "LEFT"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "L"
+				(number "1"
 					(effects
 						(font
 							(size 0 0)
@@ -5275,14 +5257,14 @@
 			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "RIGHT"
+				(name "2"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "R"
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -5291,16 +5273,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 10.16 270)
+				(at 0 -10.16 90)
 				(length 2.54)
-				(name "UP"
+				(name "3"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "UP"
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0 0)

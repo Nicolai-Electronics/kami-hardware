@@ -654,170 +654,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "lcsc:CMLW6028S1R5MST"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1292,6 +1128,197 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "library:SW_SPDT_MP"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW6"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_MP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "library:SW_SPDT_PCM12_MP"
+				(at -0.508 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-SK-3296S-01-L1_C319020.pdf"
+				(at 2.794 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C319020"
+				(at -0.762 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_MP_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_MP_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_MP_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3284,6 +3311,12 @@
 		(uuid "67ff04e5-45c4-48b6-9512-c44695cca4b5")
 	)
 	(junction
+		(at 223.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ab1f1f-17e8-473f-997c-2f268ee96892")
+	)
+	(junction
 		(at 44.45 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3294,6 +3327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d0c5399-aa44-4ac1-a792-9c9960657047")
+	)
+	(junction
+		(at 233.68 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acf0c1f4-74a7-4864-bd61-0f94bff78864")
 	)
 	(junction
 		(at 104.14 120.65)
@@ -3428,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "0a8acb84-1674-4209-8633-ee1bab98cb98")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10490b47-2ba1-4b94-9c63-08a75c9872f6")
 	)
 	(wire
 		(pts
@@ -3578,6 +3627,26 @@
 			(type default)
 		)
 		(uuid "2b6c13b2-9ffa-4709-8b9b-cb9feb64596e")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 223.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6c9340-cbfc-40c5-8326-f0395a71fda9")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 233.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d02d1f1-3aff-450c-9c89-c2f199ff9993")
 	)
 	(wire
 		(pts
@@ -3858,6 +3927,16 @@
 			(type default)
 		)
 		(uuid "71d5d4bb-c0f9-4182-bd81-5b8a58f8a0f3")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 240.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72121467-c9b5-4913-9a7c-cc17a505d2a2")
 	)
 	(wire
 		(pts
@@ -4181,6 +4260,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 129.54) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71e0551-931c-451f-8931-a8425274d75f")
+	)
+	(wire
+		(pts
 			(xy 143.51 123.19) (xy 143.51 130.81)
 		)
 		(stroke
@@ -4466,7 +4555,19 @@
 		)
 		(uuid "fe61b17c-694a-49f3-99b1-4e99db68721a")
 	)
-	(hierarchical_label "SENSE"
+	(hierarchical_label "VBUS_SENSE"
+		(shape output)
+		(at 240.03 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56738aae-5a9d-4024-bdac-1923b1004657")
+	)
+	(hierarchical_label "VBATT_SENSE"
 		(shape output)
 		(at 207.01 130.81 0)
 		(fields_autoplaced yes)
@@ -4489,6 +4590,71 @@
 			(justify left)
 		)
 		(uuid "dc4fb1d4-de4d-4e7f-9fcc-4abc8ef7f153")
+	)
+	(symbol
+		(lib_id "symbols2:GND")
+		(at 223.52 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a24079-12bd-4654-978a-629fb952c10b")
+		(property "Reference" "#PWR020"
+			(at 223.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.647 144.0942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea22deea-b36c-418d-ac0f-6c08437ab3c3")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4877,6 +5043,84 @@
 			(project "hh2024"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 233.68 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18a66e1b-4d79-4efe-a4e0-c8f1437f942d")
+		(property "Reference" "C30"
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 236.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 234.6452 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912300933_TORCH-C0805B104K500NT_C476766.pdf"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec0a8264-8f6d-4dd9-b89c-dfbeb0cbee03")
+		)
+		(pin "2"
+			(uuid "6d3278a6-8e78-4bf8-9f48-f2e6cdab8aef")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "library:SW_SPDT_MP")
 		(at 181.61 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5530,8 +5774,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 181.61 53.34 0)
+		(property "Footprint" "library:SW_SPDT_PCM12_MP"
+			(at 181.102 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5784,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-SK-3296S-01-L1_C319020.pdf"
-			(at 181.61 53.34 0)
+			(at 184.404 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5802,7 @@
 			)
 		)
 		(property "LCSC" "C319020"
-			(at 181.61 53.34 0)
+			(at 180.848 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,6 +5818,9 @@
 		)
 		(pin "2"
 			(uuid "b4e0b60c-f974-4f2f-8777-a2f00968291e")
+		)
+		(pin "MP"
+			(uuid "c55b6126-c251-4270-bf7d-cc3885128574")
 		)
 		(instances
 			(project "hh2024"
@@ -5919,6 +6166,82 @@
 			(project ""
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 223.52 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c2091e-57d6-4158-8685-07a82881f046")
+		(property "Reference" "R23"
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.298 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0805J104-TS_C2907293.pdf"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97bc1d5b-ff18-453f-be19-4992e6bc6b07")
+		)
+		(pin "2"
+			(uuid "cb1a3f78-0a21-4e93-97ec-b4c8fc7aacb9")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6272,6 +6595,71 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols2:GND")
+		(at 233.68 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61746930-314a-4f55-bee8-96ca5f14f295")
+		(property "Reference" "#PWR0112"
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.807 144.0942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a39b60-fc8f-40b6-a843-69a77d44068f")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:R")
 		(at 190.5 125.73 180)
 		(unit 1)
@@ -6350,6 +6738,7 @@
 	(symbol
 		(lib_id "symbols:R")
 		(at 172.72 53.34 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6357,7 +6746,7 @@
 		(dnp no)
 		(uuid "64eb42e2-b01e-477d-9b58-a21d30d30932")
 		(property "Reference" "R29"
-			(at 172.72 57.15 90)
+			(at 172.72 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6754,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 172.72 58.928 90)
+			(at 172.72 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 55.118 90)
+			(at 172.72 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,6 +7202,71 @@
 			(project "tsja"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols2:GND")
+		(at 176.53 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82eafff3-503b-4085-8685-b98afa62f6e0")
+		(property "Reference" "#PWR0114"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "077dcf37-0f14-465a-9983-c52958ea5d1c")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -7600,6 +8054,82 @@
 			(project "tsja"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 223.52 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb37c8f-a9f0-4350-b678-c8453db2305b")
+		(property "Reference" "R24"
+			(at 227.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.298 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0805J104-TS_C2907293.pdf"
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a85a1978-b6c4-4105-b734-0d8fd96f8814")
+		)
+		(pin "2"
+			(uuid "2be715ef-59a6-4f11-817d-186e1cd45253")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9354,6 +9884,71 @@
 			(project "hh2024"
 				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 223.52 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe369e75-ef39-49da-92e0-e95a7b17a3ab")
+		(property "Reference" "#PWR02"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 223.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 223.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62af57dc-b92c-4754-8f49-3aaaf84b7163")
+		)
+		(instances
+			(project "tsja"
+				(path "/5f312b85-6822-40a3-b417-2df49696ca2d/77fdc604-e080-44e7-9e66-e31abda69ba3"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
