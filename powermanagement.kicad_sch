@@ -4776,34 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C431354"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -5611,15 +5584,6 @@
 			)
 		)
 		(property "LCSC" "C15483"
-			(at 78.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -7156,34 +7120,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C45783"
-			(at 101.6 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 101.6 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 101.6 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 101.6 31.75 0)
 			(effects
 				(font
@@ -7326,34 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3039694"
-			(at 118.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 118.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 118.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -7496,34 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -7681,33 +7564,6 @@
 			)
 		)
 		(property "LCSC" "C26083"
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -8189,34 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3039694"
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 109.22 77.47 0)
 			(effects
 				(font
@@ -8361,34 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C45783"
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 78.74 31.75 0)
 			(effects
 				(font
@@ -8467,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5189822"
+		(property "LCSC" ""
 			(at 154.94 135.89 0)
 			(effects
 				(font
@@ -8546,34 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C45783"
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 113.03 31.75 0)
 			(effects
 				(font
@@ -8652,34 +8427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C45783"
-			(at 90.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 90.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 90.17 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" ""
 			(at 90.17 31.75 0)
 			(effects
 				(font
@@ -8822,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5189822"
+		(property "LCSC" ""
 			(at 93.98 135.89 0)
 			(effects
 				(font
@@ -9107,33 +8855,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "-"
 			(at 55.88 35.56 0)
 			(effects
@@ -9291,33 +9012,6 @@
 			)
 		)
 		(property "LCSC" "C2909325"
-			(at 44.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 44.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 44.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 44.45 73.66 0)
 			(effects
 				(font
